@@ -55,7 +55,7 @@ const ScrollComponent=()=>{
             <div className="grid-container">
             {photos.map(pic=>(
                 <div key={`${pic.id}+${Math.random()}`} style={{margin:"10px"}} className='grid-item' >
-                <img src={pic.url} height="300px" maxWidth="auto" alt="img"/>
+             <img src={pic.url} height="300px" maxWidth="auto" alt="img"/>
                 </div>
             ))}
             </div>
